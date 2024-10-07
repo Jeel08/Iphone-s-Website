@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap");
+
+* {
+  font-family: "Afacad Flux", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+  right: 0;
+}
+.nav-icon-style {
+  width: 50%;
+  height: 50%;
+}
+.nav-icon-style:hover {
+  cursor: pointer;
+}
+.navbar-style {
+  top: 0;
+  width: 100%;
+  /* height: 20%; */
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 3rem;
+  position: fixed;
+  overflow: hidden;
+  z-index: 1;
+  /* padding: 1rem; */
+}
+.content-style {
+  background-color: rgb(240, 240, 240);
+  width: 100%;
+  height: 100%;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+}
+.font-size {
+  font-size: 5rem;
+  color: cadetblue;
+}
+.shop-btn {
+  margin-top: 3rem;
+  margin-left: 15rem;
+  width: 10rem;
+  height: 2rem;
+  background-color: white;
+  color: rgb(15, 1, 7);
+  text-align: center;
+}
+.shop-btn:hover {
+  color: aliceblue;
+  background-color: rgb(90, 90, 90);
+  cursor: pointer;
+}
+.img-style {
+  width: 100%;
+  height: 80%;
+  position: relative;
+}
+.cart-style {
+  display: none;
+  width: 50%;
+  margin-left: 2.5rem;
+  text-align: center;
+  height: 10%;
+  top: 65%;
+  background-color: black;
+  font-size: 1rem;
+  color: rgb(243, 235, 235);
+  position: absolute;
+}
+
+.hover-effect:hover .cart-style {
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  display: block !important;
+}
+.cart-style:hover {
+    background-color: rgb(80, 203, 194);
+    color: black;
+}
+.sale-style {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(210, 210, 210);
+}
+.shop-insta-style {
+  width: 100%;
+  height: 80%;
+  /* object-fit: cover; */
+  position: relative;
+  display: block;
+}
+.shop-insta-style:hover {
+  background-image: url("/social-icons/instagram-outline-svgrepo-com.svg");
+  transition: 1s ease;
+  cursor: pointer;
+  background-color: rgb(226, 10, 10);
+}
+.mb-5 {
+  margin-bottom: 5rem;
+}
+.font-color {
+  color: rgb(180, 180, 180);
+}
+.social-icons {
+  color: rgb(180, 180, 180);
+  width: 70%;
+  height: 70%;
+  opacity: 0.5;
+}
+.social-icons:hover {
+  cursor: pointer;
+  color: rgb(8, 240, 248);
+  opacity: 1;
+}
+.anchor-style {
+  text-decoration: none;
+  color: black;
+}
+.anchor-style:hover {
+  cursor: pointer;
+  color: rgb(230, 150, 47);
+}
+.product-header-font-style {
+  font-size: 2rem;
+}
+.go-to-shop-style {
+  text-decoration: underline;
+}
+.go-to-shop-style:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
