@@ -18,6 +18,7 @@ body {
 .nav-icon-style {
   width: 100%;
   height: 80%;
+  padding-top: 1rem;
 }
 .nav-icon-style:hover {
   cursor: pointer;
@@ -146,6 +147,7 @@ body {
 .anchor-style {
   text-decoration: none;
   color: black;
+  margin-top: 1rem;
 }
 .anchor-style:hover {
   cursor: pointer;
@@ -164,4 +166,67 @@ body {
 .price-text-style {
   text-align: end;
   color: rgb(150, 203, 194);
+}
+.services-tag-style {
+  font-size: 1.5rem;
+  color: black;
+}
+.services-style {
+  font-size: 1rem;
+  color: lightgray;
+}
+
+.footer-tag-style {
+  font-size: 2rem;
+  color: black;
+}
+.Shop-Our-Insta-style {
+  font-size: 5rem;text-align: center;
+}
+@media screen and (max-width:576px) {
+  
+  .Shop-Our-Insta-style {
+    font-size: 3rem;
+
+  }
+  .nav-icon-style{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .common-style {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+  }
+
+  .font-size {
+    font-size: 2rem;
+    color: cadetblue;
+  }
+  .p-fs {
+    font-size: 1.5rem;
+  }
+
+  .phone-margin {
+    align-items: center;
+    margin-left: 2rem;
+  }
+
+  .img-style {
+    width: 100%;
+    height: 50%;
+  }
+  
+  .watch-style {
+    width: 90%;
+    height: 50%;
+  }
+  .navbar-style{
+    /* display: none; */
+  }
+
+  .shop-btn {
+    margin-left: 5rem;
+  }
 }
