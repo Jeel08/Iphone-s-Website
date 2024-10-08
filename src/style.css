@@ -13,10 +13,11 @@ body {
   padding: 0;
   box-sizing: 0;
   right: 0;
+  overflow-x: hidden;
 }
 .nav-icon-style {
-  width: 50%;
-  height: 50%;
+  width: 100%;
+  height: 80%;
 }
 .nav-icon-style:hover {
   cursor: pointer;
@@ -25,7 +26,7 @@ body {
   top: 0;
   width: 100%;
   /* height: 20%; */
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(202, 203, 194);
   margin-bottom: 3rem;
   position: fixed;
   overflow: hidden;
@@ -37,13 +38,14 @@ body {
   width: 100%;
   height: 100%;
   margin-bottom: 5rem;
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 .font-size {
   font-size: 5rem;
   color: cadetblue;
 }
 .shop-btn {
+  padding-top: 5px;
   margin-top: 3rem;
   margin-left: 15rem;
   width: 10rem;
@@ -63,9 +65,12 @@ body {
   position: relative;
 }
 .cart-style {
+  padding-top: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
   display: none;
-  width: 50%;
-  margin-left: 2.5rem;
+  width: 80%;
+  margin-left: 10px;
   text-align: center;
   height: 10%;
   top: 65%;
@@ -73,6 +78,7 @@ body {
   font-size: 1rem;
   color: rgb(243, 235, 235);
   position: absolute;
+  border-radius: 5px;
 }
 
 .hover-effect:hover .cart-style {
@@ -85,22 +91,40 @@ body {
     color: black;
 }
 .sale-style {
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
-  background-color: rgb(210, 210, 210);
+  background-color: rgb(240, 240, 240);
 }
 .shop-insta-style {
   width: 100%;
   height: 80%;
-  /* object-fit: cover; */
   position: relative;
-  display: block;
+  /* object-fit: cover; */
 }
-.shop-insta-style:hover {
-  background-image: url("/social-icons/instagram-outline-svgrepo-com.svg");
-  transition: 1s ease;
+.insta-hover {
+  position: absolute;
+  display: none;
+  width: 20%;
+  height: 20%;
+  margin-left: 5rem;
+  color: white;
+  bottom: 50%;
+  top: 50%;
+  /* transform: translate(-50%, -50%); */
   cursor: pointer;
-  background-color: rgb(226, 10, 10);
+  animation-name: example;
+  animation-duration: 2s;
+  /* background-color: rgb(226, 10, 10); */
+}
+
+@keyframes example {
+  from {opacity: 0;top: 50%;}
+  to {opacity: 1;top: 40%;}
+}
+
+.hover-me:hover .insta-hover {
+  display: block;
+  cursor: pointer;
 }
 .mb-5 {
   margin-bottom: 5rem;
@@ -136,4 +160,8 @@ body {
 .go-to-shop-style:hover {
   text-decoration: none;
   cursor: pointer;
+}
+.price-text-style {
+  text-align: end;
+  color: rgb(150, 203, 194);
 }
