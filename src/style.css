@@ -7,8 +7,16 @@
   font-style: normal;
   font-variation-settings: "slnt" 0;
 }
+.logo-style {
+  margin-left: 1rem;
+  width: 40%;
+  height: 90%;
+  cursor: pointer;
+  padding-top: 1rem;
+}
 
 body {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-sizing: 0;
@@ -26,13 +34,11 @@ body {
 .navbar-style {
   top: 0;
   width: 100%;
-  /* height: 20%; */
   background-color: rgb(202, 203, 194);
   margin-bottom: 3rem;
   position: fixed;
   overflow: hidden;
   z-index: 1;
-  /* padding: 1rem; */
 }
 .content-style {
   background-color: rgb(240, 240, 240);
@@ -92,7 +98,6 @@ body {
     color: black;
 }
 .sale-style {
-  /* width: 100%; */
   height: 100%;
   background-color: rgb(240, 240, 240);
 }
@@ -100,7 +105,6 @@ body {
   width: 100%;
   height: 80%;
   position: relative;
-  /* object-fit: cover; */
 }
 .insta-hover {
   position: absolute;
@@ -111,11 +115,9 @@ body {
   color: white;
   bottom: 50%;
   top: 50%;
-  /* transform: translate(-50%, -50%); */
   cursor: pointer;
   animation-name: example;
   animation-duration: 2s;
-  /* background-color: rgb(226, 10, 10); */
 }
 
 @keyframes example {
@@ -222,10 +224,7 @@ body {
     width: 90%;
     height: 50%;
   }
-  .navbar-style{
-    /* display: none; */
-  }
-
+ 
   .shop-btn {
     margin-left: 5rem;
   }
